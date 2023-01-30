@@ -1,0 +1,130 @@
+.reviews_heading {
+    width: 100%;
+}
+
+.reviews_heading_text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 32px;
+    padding: 24px 10px;
+}
+
+.reviews_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0px 16px;
+    margin-bottom: 40px;
+}
+
+.review {
+    width: calc(33.3333%);
+    padding: 24px 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.review_header {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.review_avatar_container {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.review_avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.review_user_container {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 700;
+}
+
+.review_user_designation_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+
+.review_user_designation {
+    width: 100%;
+}
+
+.review_user_designation_url {
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.review_user_designation_url:hover {
+    color: #DC222F;
+}
+
+.rating_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin-top: 12px;
+}
+
+.review_text_container {
+    width: 100%;
+    margin-top: 12px;
+    text-align: justify;
+}
+
+.read_more {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0px 0.4rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .reviews_container {
+        flex-direction: column;
+    }
+    .review {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .reviews_container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .reviews_container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .reviews_container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .reviews_container {
+        width: 100%;
+    }
+}
